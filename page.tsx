@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white flex items-center justify-center relative">
       <div className="absolute top-4 right-4">
         <a
-          href="https://example.com"
+          href="https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMui432dhXMEj2B9nbpw/edit?usp=sharing"
           className="text-white font-medium hover:text-gray-300 underline transition-colors"
           target="_blank"
           rel="noopener noreferrer"
