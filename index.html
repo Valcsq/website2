@@ -11,31 +11,36 @@
             height: 100%;
             color: white;
             font-family: sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             position: relative;
         }
         
-        /* Added top left GIF styling - 5 times bigger at 320x320px */
+        /* Container for centered content */
+        .page-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
         .top-left-gif {
             position: absolute;
             top: 16px;
             left: 16px;
+            z-index: 10;
         }
         
         .top-left-gif img {
-            width: 130px;
-            height: 130px;
+            width: 320px;
+            height: 320px;
             border-radius: 8px;
         }
         
-        /* Added top right link styling */
         .top-right-text {
             position: absolute;
             top: 16px;
             right: 16px;
             font-weight: 500;
+            z-index: 10;
         }
         
         .top-right-text a {
@@ -52,7 +57,6 @@
             text-align: center;
         }
         
-        /* Added image styling */
         .page-image {
             max-width: 300px;
             height: auto;
@@ -63,21 +67,20 @@
     </style>
 </head>
 <body>
-    <!-- Added Discord GIF in top left corner -->
     <div class="top-left-gif">
-        <img src="https://cdn.discordapp.com/attachments/1329928899538452583/1400964537460723802/togif.gif?ex=689b13a6&is=6899c226&hm=cf708de8f1ee1ad728a6314e99438e8278b64bfce257b745c710617e52a58dd8&" alt="Discord Attachment">
+        <img src="https://cdn.discordapp.com/attachments/YOUR_CHANNEL_ID/YOUR_MESSAGE_ID/YOUR_FILE_NAME.gif" alt="Discord Attachment">
     </div>
 
-    <!-- Added clickable link in top right corner -->
     <div class="top-right-text">
         <a href="https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMut432dhXMEjZB9nbpw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">pedofile: https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMut432dhXMEjZB9nbpw/edit?usp=sharing</a>
     </div>
 
-    <div class="centered-text">
-        <!-- Added image element -->
-        <img src="https://i.imgur.com/7YGyRwN.png" alt="Digital Art" class="page-image">
-        <h1>fuck</h1>
-        <p>you</p>
+    <div class="page-container">
+        <div class="centered-text">
+            <img src="https://i.imgur.com/7YGyRwN.png" alt="Digital Art" class="page-image">
+            <h1>fuck</h1>
+            <p>you</p>
+        </div>
     </div>
 </body>
 </html>
