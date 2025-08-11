@@ -5,12 +5,12 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white flex items-center justify-center relative">
       <div className="absolute top-4 right-4">
         <a
-          href="https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMui432dhXMEj2B9nbpw/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMut432dhXMEjZB9nbpw/edit?usp=sharing"
           className="text-white font-medium hover:text-gray-300 underline transition-colors"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMui432dhXMEj2B9nbpw/edit?usp=sharing
+          pedofile: https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMut432dhXMEjZB9nbpw/edit?usp=sharing
         </a>
       </div>
 
