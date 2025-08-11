@@ -10,7 +10,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://example.com
+          https://docs.google.com/document/d/1dwGMFOO1gLSLEvVM9iQPVnKsMui432dhXMEj2B9nbpw/edit?usp=sharing
         </a>
       </div>
 
